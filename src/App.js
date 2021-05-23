@@ -1,5 +1,6 @@
 import React from 'react';
 import List from './components/List'
+import ListItem from './components/ListItem'
 
 // jsx
 const App = () => {
