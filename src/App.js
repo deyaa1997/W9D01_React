@@ -16,7 +16,7 @@ const App = () => {
     <>
       <h1>hello world</h1>
       <h1>List</h1>
-      <List todoElem={todos} />;
+      <List todoElem={todos} />
       <h1>ListItem</h1>
       {propListItem}
     </>

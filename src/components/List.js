@@ -1,12 +1,10 @@
 import React from "react" ; 
 
 
-const List = ({todoElem})=>{
+const List = ({todos})=>{
     return( <>
     
     <ul>
-        <li></li>
-
     </ul>
     </>
     )
