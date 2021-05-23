@@ -9,11 +9,18 @@ const App = () => {
   const propList = todos.map((elem, i) => {
     return<List key={i} todoElem={elem} />;
   });
+
+  const propListItem = todos.map((elem,i)=>{
+    return <ListItem key={i} todoList= {elem.todo} id = {elem.id}/>
+  })
   
   return (
     <>
       <h1>hello world</h1>
+      <h1>List</h1>
       {propList}
+      <h1>ListItem</h1>
+      {propListItem}
     </>
   );
 };
